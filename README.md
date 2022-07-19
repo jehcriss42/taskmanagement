@@ -2,6 +2,9 @@
 Simple todo to practice Django rest Framework for a python challenge 
 
 # To run the application
+pipenv install
+pipenv shell
+python manage.py migrate
 python manage.py runserver
 
 # To test Django Rest Framework:
